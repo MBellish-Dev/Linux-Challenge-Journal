@@ -1,5 +1,5 @@
 # My Linux Upskill Challenge Journal
-BITA Kernel Crew · Cohort 1 · Sept 2026
+BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https://linuxupskillchallenge.org/)
 
 ## Day 0 -- COMPLETED
 - Set up my server (DigitalOcean / Killercoda) — it's alive 🐧
