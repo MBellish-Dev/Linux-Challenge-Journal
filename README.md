@@ -26,5 +26,5 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
   - Learned how to navigate using the "Midnight Commander" feature. Also, I learned how to launch a game of hangman.
  
 ## Day 5 -- COMPLETED
-- Problems I hit and how I fixed them:
-  - 
+- Problems I hit and how I fixed them: None to report
+  - Learned about tab completion, using the 'less' command, the 'more' command, and dot files.
