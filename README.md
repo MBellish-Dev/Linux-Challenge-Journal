@@ -28,3 +28,6 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
 ## Day 5 -- COMPLETED
 - Problems I hit and how I fixed them: None to report
   - Learned about tab completion, using the 'less' command, the 'more' command, and dot files.
+
+## Day 6 -- 
+- Problems I hit and how I fixed them:
