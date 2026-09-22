@@ -30,4 +30,6 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
   - Learned about tab completion, using the 'less' command, the 'more' command, and dot files.
 
 ## Day 6 -- 
-- Problems I hit and how I fixed them:
+- Problems I hit and how I fixed them: No problems to report.
+  - Learned how to navigate in VIM. Here are some shortcuts:
+   - INSERT mode (by pressing "I" allows you to do just that.
