@@ -29,7 +29,20 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
 - Problems I hit and how I fixed them: None to report
   - Learned about tab completion, using the 'less' command, the 'more' command, and dot files.
 
-## Day 6 -- 
+## Day 6 -- COMPLETED
 - Problems I hit and how I fixed them: No problems to report.
   - Learned how to navigate in VIM. Here are some shortcuts:
-   - INSERT mode (by pressing "I" allows you to do just that.
+      - INSERT mode (by pressing "I" allows you to do just that.)
+          - Hitting H, J, K, L will move the cursor left, down, up, and right respectively while in Insert mode.
+      - Visual mode (by pressing "V")
+          - Select a portion of text and use 'd' to delete.
+          - Use "Y" to copy (yank), 'yy' to copy an entire line,'p' to paste, 'u' to undo, and CRTL + r to redo.
+      - Normal mode (by pressing the Esc key)
+          - x = delete/cut, dd = delete an entire line,
+          - Use / -f to find and / -r to replace
+      - Command mode (by pressing the colon [:] key)
+          - This is where you can use the q - Quit, q! - force quit, W - save, wq - save and quit
+ 
+## Day 7 -- COMPLETED
+- Problems I hit and how I fixed them: No to report
+  - Apache2 successfully installed. Will have to learn how to bring up the html page of my apache.
