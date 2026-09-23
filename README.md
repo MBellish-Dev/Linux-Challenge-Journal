@@ -31,7 +31,7 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
 
 ## Day 6 -- COMPLETED
 - Problems I hit and how I fixed them: No problems to report.
-  - Learned how to navigate in VIM. Here are some shortcuts:
+   - Learned how to navigate in VIM. Here are some shortcuts:
       - INSERT mode (by pressing "I" allows you to do just that.)
           - Hitting H, J, K, L will move the cursor left, down, up, and right respectively while in Insert mode.
       - Visual mode (by pressing "V")
@@ -46,3 +46,12 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
 ## Day 7 -- COMPLETED
 - Problems I hit and how I fixed them: No to report
   - Apache2 successfully installed. Will have to learn how to bring up the html page of my apache.
+
+## Day 8
+- Problems I hit and how I fixed them: None to report.
+  - Using the "cat" command prints all the text/lines in file from top to bottom. Using "tac" (which is the reverse of "cat") prints from bottom to top.
+  - Using the "grep" command pulls the text that you want to print (make sure the text you want to print is in parentheses) --> grep "example text" example.txt
+    - grep -o means that you only want to see what you are searching. --> Will need to look at the grep command I copied from the video.
+  - Using "uniq" will print the unique lines from the files
+  - Using the "cut" command will only print based on the instructions you give it (i.e. cut -d"[insert what to cut]" -f[field number] [file name] -- with -d and -f being the limitators)
+  - Learn more about "sed", "awk", and "RegEx" (regular expressions).
