@@ -43,9 +43,10 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
       - Command mode (by pressing the colon [:] key)
           - This is where you can use the q - Quit, q! - force quit, W - save, wq - save and quit
  
-## Day 7 -- COMPLETED
-- Problems I hit and how I fixed them: No to report
+## Day 7
+- Problems I hit and how I fixed them:
   - Apache2 successfully installed. Will have to learn how to bring up the html page of my apache.
+  - Ran 'curl -4 ifconfig.me' to find the public IP address. It would need to be accessed on a different network.
 
 ## Day 8
 - Problems I hit and how I fixed them: None to report.
