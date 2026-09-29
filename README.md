@@ -44,7 +44,7 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
           - This is where you can use the q - Quit, q! - force quit, W - save, wq - save and quit
  
 ## Day 7 -- COMPLETED
-- Problems I hit and how I fixed them:
+- Problems I hit and how I fixed them: One to report
   - Apache2 successfully installed. Will have to learn how to bring up the html page of my apache.
   - Ran 'curl -4 ifconfig.me' to find the public IP address. It would need to be accessed on a different network.
   - Found the correct ip address to see the Apache web page.
@@ -58,3 +58,11 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
   - Using "uniq" will print the unique lines from the files
   - Using the "cut" command will only print based on the instructions you give it (i.e. cut -d"[insert what to cut]" -f[field number] [file name] -- with -d and -f being the limitators)
   - Learn more about "sed", "awk", and "RegEx" (regular expressions).
+
+## Day 9 -- COMPLETED
+- Problems I hit and how I fixed them: None to report
+  - I already had 'ufw' installed and running on my server when I first created it almost over a year ago (sudo apt install ufw and sudo ufw enable and ssh with http).
+  - I am still able to ssh it into my server using a terminal from a different PC on the same network.
+ 
+## Day 10
+- Problems I hit and how I fixed them:
