@@ -64,5 +64,15 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
   - I already had 'ufw' installed and running on my server when I first created it almost over a year ago (sudo apt install ufw and sudo ufw enable and ssh with http).
   - I am still able to ssh it into my server using a terminal from a different PC on the same network.
  
-## Day 10
+## Day 10 -- COMPLETED
+- Problems I hit and how I fixed them: None to report
+  - I have used the 'cron' command before when setting up an automated task for my Kali Linux virtual machine to scan my Windows 11 virtual machine.
+
+## Day 11 -- COMPLETED
+- Problems I hit and how I fixed them: None to report
+  - Learned how to use the 'locate' command after installing it
+  - Learned about updating the database using the 'sudo updatedb' command.
+  - I can still use the grep command as well.
+
+## Day 12
 - Problems I hit and how I fixed them:
