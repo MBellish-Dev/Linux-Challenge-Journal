@@ -75,7 +75,7 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
   - I can still use the grep command as well.
 
 ## Day 12 -- COMPLETED
-- Problems I hit and how I fixed them:
+- Problems I hit and how I fixed them: None to report.
   - When using the 'sftp' method, you have to type out this command: 'sftp username@ipaddress'
     - Use the 'put' command (put "[drive name]\path\to\folder\and\file" -- this works with the local C: drive) to transfer files from local machine to the current directory of the Ubuntu server.
       - If you want a specific path, then follow up with the Ubuntu file path AFTER the file path of your local machine.
@@ -88,3 +88,6 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
       - -v - verbose -- shows you what is happening with rsync (tell me what you are doing)
       - -h - human-readable -- makes things easy to read
   - Will use the 'rsync' command on a different machine
+
+## Day 13
+- Problems I hit and how I fixed them:
