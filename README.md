@@ -74,5 +74,17 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
   - Learned about updating the database using the 'sudo updatedb' command.
   - I can still use the grep command as well.
 
-## Day 12
+## Day 12 -- COMPLETED
 - Problems I hit and how I fixed them:
+  - When using the 'sftp' method, you have to type out this command: 'sftp username@ipaddress'
+    - Use the 'put' command (put "[drive name]\path\to\folder\and\file" -- this works with the local C: drive) to transfer files from local machine to the current directory of the Ubuntu server.
+      - If you want a specific path, then follow up with the Ubuntu file path AFTER the file path of your local machine.
+    - Use the 'get' command (get /home/path/to/folder/and/file "[drive name]\path\to\folder\and\file) to get files from Ubuntu server and send them to a location on the PC.
+      - I believe that there is not default path for the receiving end. So, you HAVE to specify.
+  - You can sync the two different folders by using 'rsync' (rsync -avh /windows/source username@ipaddress:/ubuntu/source/)
+    - You can add 'dry-run' to test it out if not sure.
+    - The flags -a, -v, and -h are options for the rsync
+      - -a - archive mode -- preserves the things (copy/synchronize properly)
+      - -v - verbose -- shows you what is happening with rsync (tell me what you are doing)
+      - -h - human-readable -- makes things easy to read
+  - Will use the 'rsync' command on a different machine
