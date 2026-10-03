@@ -76,6 +76,7 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
 
 ## Day 12 -- COMPLETED
 - Problems I hit and how I fixed them: None to report.
+  - This one was interesting to learn.
   - When using the 'sftp' method, you have to type out this command: 'sftp username@ipaddress'
     - Use the 'put' command (put "[drive name]\path\to\folder\and\file" -- this works with the local C: drive) to transfer files from local machine to the current directory of the Ubuntu server.
       - If you want a specific path, then follow up with the Ubuntu file path AFTER the file path of your local machine.
