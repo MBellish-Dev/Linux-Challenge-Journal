@@ -90,5 +90,6 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
       - -h - human-readable -- makes things easy to read
   - Will use the 'rsync' command on a different machine
 
-## Day 13
-- Problems I hit and how I fixed them:
+## Day 13 -- COMPLETED
+- Problems I hit and how I fixed them: None to report
+  - Learned how to create new users, create groups, add users to groups, and give them sudo privileges
