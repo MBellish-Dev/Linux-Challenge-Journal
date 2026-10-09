@@ -63,6 +63,7 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
 - Problems I hit and how I fixed them: None to report
   - I already had 'ufw' installed and running on my server when I first created it almost over a year ago (sudo apt install ufw and sudo ufw enable and ssh with http).
   - I am still able to ssh it into my server using a terminal from a different PC on the same network.
+  - Learned how to do port scanning with Nmap.
  
 ## Day 10 -- COMPLETED
 - Problems I hit and how I fixed them: None to report
