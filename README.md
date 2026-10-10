@@ -101,4 +101,13 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
   - Learned about changing the ownership of a file for users and groups.
 
 ## Day 15
-- Problems I hit and how I fixed them:
+- Problems I hit and how I fixed them: None to report
+  - When wanting/needing to install an additional package in a repository, should make sure that the private key is downloaded first so that when running 'apt' it will know that the package is coming from a legit source. This is also VERY beneficial to do as it provides a layer of security.
+  - To add software not from official Ubuntu repositories, this is the command that you would run > sudo add-apt-repository ppa:<user>/<ppa-name>
+  - This is how to remove the PPA:
+    - sudo apt install ppa-purge
+    - sudo ppa-purge ppa:<user>/<ppa-name>
+  - APT > advanced package tool
+  - DPKG > debian package
+
+
