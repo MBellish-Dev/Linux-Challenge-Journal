@@ -110,5 +110,18 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
   - APT > advanced package tool
   - DPKG > debian package
 
-## Day 16
-- Problems I hit and how I fixed them:
+## Day 16 -- COMPLETED
+- Problems I hit and how I fixed them: None to report
+  - Learned how to zip and unzip files
+  - Learned 'tarball' - single archive file created with 'tar' (usually compressed)
+    - this is the command: tar cf archive.tar [file name #1] [file name #2] [file name #3] etc
+      - C is for create. F is for file.
+      - 'archive.tar' does not necessarily have to be that name
+      - the total size of the tar file is the sum of the files being archived
+    - this is the command to look inside the archive file: tar tvf [name of the archive file]
+      - T is for table of contents, V is for verbose, and F is for file
+    - this is the command to zip an archive file: tar czf compressed-archive.tar.gz [insert the names of the files that are in archive.tar]
+      - C for create, Z for zip (compress), F for file
+      - the file size will be smaller than the archive file
+    - this is the command to extract the compressed archive file into another directory: tar xvf [name of the compressed archived tar] -C [directory location]
+      - X for extract, V for verbose (to see it after it is done), and F for file
