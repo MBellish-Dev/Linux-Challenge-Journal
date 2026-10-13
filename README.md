@@ -100,7 +100,7 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
 - Problems I hit and how I fixed them: None to report
   - Learned about changing the ownership of a file for users and groups.
 
-## Day 15
+## Day 15 -- COMPLETED
 - Problems I hit and how I fixed them: None to report
   - When wanting/needing to install an additional package in a repository, should make sure that the private key is downloaded first so that when running 'apt' it will know that the package is coming from a legit source. This is also VERY beneficial to do as it provides a layer of security.
   - To add software not from official Ubuntu repositories, this is the command that you would run > sudo add-apt-repository ppa:<user>/<ppa-name>
@@ -110,4 +110,5 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
   - APT > advanced package tool
   - DPKG > debian package
 
-
+## Day 16
+- Problems I hit and how I fixed them:
