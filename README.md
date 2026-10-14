@@ -139,4 +139,4 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
     - wget -v [insert link of source].tar.bz2 <-- the file may or may not be zipped
       - when extracting a bz2 zip file, this is what you start with: tar jxvf [insert name of bz2 file]
   - When installing a different version of Nmap (7.80 > 7.70), it still shows version 7.80 as the current version (instructional video shows version 7.70)
-    - However, /usr/bin/nmap shows version 7.80, and /usr/local/bin/nmap shows version 7.70 (exactly like the instructional video
+    - However, /usr/bin/nmap shows version 7.80, and /usr/local/bin/nmap shows version 7.70 (exactly like the instructional video)
