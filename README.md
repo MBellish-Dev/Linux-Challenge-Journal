@@ -125,3 +125,18 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
       - the file size will be smaller than the archive file
     - this is the command to extract the compressed archive file into another directory: tar xvf [name of the compressed archived tar] -C [directory location]
       - X for extract, V for verbose (to see it after it is done), and F for file
+     
+## Day 17 -- COMPLETED
+- Problems I hit and how I fixed them: Minor issue with having an older version of nmap running
+  - Learned what source code is
+    - a human readable form for an application
+  - Learned what binary is
+    - it's for computers
+    - the actual application
+    - highly distributed on the repositories
+  - "open source" and "free software" are pretty synonymous. "Open source" is a friendlier phrase.
+  - When needing to get an older version of a source, instead of going to the website and downloading it, here is the command prompt method:
+    - wget -v [insert link of source].tar.bz2 <-- the file may or may not be zipped
+      - when extracting a bz2 zip file, this is what you start with: tar jxvf [insert name of bz2 file]
+  - When installing a different version of Nmap (7.80 > 7.70), it still shows version 7.80 as the current version (instructional video shows version 7.70)
+    - However, /usr/bin/nmap shows version 7.80, and /usr/local/bin/nmap shows version 7.70 (exactly like the instructional video
