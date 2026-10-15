@@ -140,3 +140,22 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
       - when extracting a bz2 zip file, this is what you start with: tar jxvf [insert name of bz2 file]
   - When installing a different version of Nmap (7.80 > 7.70), it still shows version 7.80 as the current version (instructional video shows version 7.70)
     - However, /usr/bin/nmap shows version 7.80, and /usr/local/bin/nmap shows version 7.70 (exactly like the instructional video)
+
+## Day 18 -- COMPLETED
+- Problems I hit and how I fixed them:
+  - System Log -- historic record of system events
+  - Logs themselves take up space over time. Use 'logrotate' to, well, rotate the logs. This helps to view the log at a point something took place, be better organized, and save disk space as well as the log itself.
+    - Start with Log0. After a period of time has passed, it gets archived and a new log (Log1) is created. Then when time has passed, that log will get archived and another new log (Log3) will get created. Some can be archived for a very long time depending on the business or the policy that was set.
+    - Link for reference: [Log Rotation](https://www.crowdstrike.com/en-us/cybersecurity-101/next-gen-siem/log-rotation/)
+  - Daemon (pronounced "demon") - program/service that runs in the background
+  - Journal - a way to check files, gather information, and do some filtering without having to dive into the log files themselves
+    - Here are some commands:
+      - journalctl -b < this shows what happened since the booting of the server
+      - journalctl --since today < shows logs from the day
+      - journalctl -f < shows logs as they are happening (used if you are trying to test something). '-f' is similar to 'tail' which shows the last (or recent) log.
+      - journalctl --priority=[insert priority number]
+        - 3 < shows only the error logs
+        - 1 < shows what is critical
+       
+## Day 19
+- Problems I hit and how I fixed them:
