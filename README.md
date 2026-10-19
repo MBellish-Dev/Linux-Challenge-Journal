@@ -159,3 +159,22 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
        
 ## Day 19
 - Problems I hit and how I fixed them:
+  - shortcuts to files (go from this: /really/long/path/to/the/original/file to this: /home/shortcut --> file
+  - Inode > index nodes - this describes a file system object and that it stores the attributes of that file (file permissions, file size, the user owner, the group owner) and it links those attributes to a block of data
+  - Commands to run:
+    - df -i > this shows you the amount of inodes a filesystem has
+    - ls -i [insert file name] > shows the inode number of that particular file
+    - stat [insert file name] > shows that status of a file including the inode number
+  - Symlink (also known as soft link) and hard link. These help with shortcuts to a file
+    - To create a softlink: ln -s [filename from] [filename to]
+      - 'S' is for Symlink or softlink
+    - You can use 'stat [insert file name #1] [insert file name #2]' to look at the status of both files and see that the file that has been symlink will say "symbolic link". The inodes are the same as well as the file size and permissions.
+    - If original file of the softlink is deleted, then it will reference something that no longer exists
+    - Use 'stat -L [insert file name #1] [insert file name #2]' to get a more in-depth look at the files.
+  - Hard link - it references directly to the inode of the original file and goes to that data block.
+    - Command(s) to use:
+      - ln [filename from] [filename to] > this will create the hardlink
+      - ls -li [filename from] [filename to] > this shows the same inode and file permissions
+      - stat [filename from] [filename to] > shows more in-depth file information (same file size, inode, datablock, etc)
+    - If original file of the hardlink is deleted, then
+  - Alias - a shortcut for a command that is too long or used too often
