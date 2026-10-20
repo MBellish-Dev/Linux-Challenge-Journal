@@ -157,7 +157,7 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
         - 3 < shows only the error logs
         - 1 < shows what is critical
        
-## Day 19
+## Day 19 -- COMPLETED
 - Problems I hit and how I fixed them:
   - shortcuts to files (go from this: /really/long/path/to/the/original/file to this: /home/shortcut --> file
   - Inode > index nodes - this describes a file system object and that it stores the attributes of that file (file permissions, file size, the user owner, the group owner) and it links those attributes to a block of data
