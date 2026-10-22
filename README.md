@@ -158,7 +158,7 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
         - 1 < shows what is critical
        
 ## Day 19 -- COMPLETED
-- Problems I hit and how I fixed them:
+- Problems I hit and how I fixed them: None to report
   - shortcuts to files (go from this: /really/long/path/to/the/original/file to this: /home/shortcut --> file
   - Inode > index nodes - this describes a file system object and that it stores the attributes of that file (file permissions, file size, the user owner, the group owner) and it links those attributes to a block of data
   - Commands to run:
@@ -178,3 +178,6 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
       - stat [filename from] [filename to] > shows more in-depth file information (same file size, inode, datablock, etc)
     - If original file of the hardlink is deleted, then
   - Alias - a shortcut for a command that is too long or used too often
+
+## Day 20
+- Problems I hit and how I fixed them:
