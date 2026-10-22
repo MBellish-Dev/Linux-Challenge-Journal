@@ -165,7 +165,7 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
     - df -i > this shows you the amount of inodes a filesystem has
     - ls -i [insert file name] > shows the inode number of that particular file
     - stat [insert file name] > shows that status of a file including the inode number
-  - Symlink (also known as soft link) and hard link. These help with shortcuts to a file
+  - Symlink (also known as soft link) and hard link. These help with shortcuts to a file. Softlink is an inode to reference another inode.
     - To create a softlink: ln -s [filename from] [filename to]
       - 'S' is for Symlink or softlink
     - You can use 'stat [insert file name #1] [insert file name #2]' to look at the status of both files and see that the file that has been symlink will say "symbolic link". The inodes are the same as well as the file size and permissions.
