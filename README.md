@@ -208,4 +208,4 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
       fi
 
 ## Day 21
-- Problems I hit and how I fixed them: Nothing to report
+- Problems I hit and how I fixed them: 
