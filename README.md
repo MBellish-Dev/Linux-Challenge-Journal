@@ -179,8 +179,8 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
     - If original file of the hardlink is deleted, then
   - Alias - a shortcut for a command that is too long or used too often
 
-## Day 20
-- Problems I hit and how I fixed them:
+## Day 20 -- COMPLETED
+- Problems I hit and how I fixed them: Nothing to report
   - Several different shell script interpreters: Bash, Zsh, Tcsh, and Fish are just some examples
   - This is how you start your shell script > #!/bin/[insert shell interpreter] < this is the path to your interpreter
     - The .sh is optional in the file name. What matters is the file being executed.
@@ -196,4 +196,16 @@ BITA Kernel Crew · Cohort 1 · Sept 2026 · See [Linux Upskill Challenge](https
   - You can also use the grep command as well so long as you create a variable for it.
     - grep -i (which means case insensitive) $P $LOG | cut -d:  -f4 | cut -d" " -f7 | sort | uniq -c | sort -nr | head -3 <-- this is a very long example of what you can do with the grep command inside of a script
     - $P (for pattern) = "disconnected from authenticating user root"
-  - You can use positional parameters
+    - The numbers/integers can be replaced with variables (ex: replace 3 for $1)
+      - What this does is when you execute the script and place a number after the script (./[name of script] [insert number]), it will give you the first of that many
+        - If you want the first 5 of the list, put 5.
+  - You can use positional parameters - check [here](https://www.gnu.org/software/bash/manual/html_node/Positional-Parameters.html) for reference.
+  - You can also use conditional parameters as well
+    - if [ -z $1 ]
+      then
+              echo "Usage is $0 <num>"
+              exit 0
+      fi
+
+## Day 21
+- Problems I hit and how I fixed them: Nothing to report
